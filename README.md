@@ -5,4 +5,4 @@
 
 ## Description ##
 
-The goal of this assignment is to create a social network API.  It should include functionality such as allowing users to share and react to frineds thoughts, the ability to create a friend list, and more.  I have not fully completed it yet, so far I have created to proper file structure, installed the necessary packages, and completed the models.  I will be going back and finishing the remainder when I have time.
+The goal of this assignment is to create a social network API.  It should include functionality such as allowing users to share and react to frineds thoughts, the ability to create a friend list, and more.  The project is not fully complete yet, but I am getting close.  I have finished the server, the config folder, all the models, and most of the api routing, but the controller file has been giving me trouble.  The server generates and i can pull it up in insomnia but the controller file issues are preventing me from populating the proper data.  I have to submit this assignment because the due date is tonight but when I have time i will go back and figure out the controller file.  Thanks!

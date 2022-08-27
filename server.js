@@ -9,6 +9,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(routes);
 
+app.get('/', (req, res) => {
+  res.send(
+    `<p>I've been having trouble with the controller file, which is preventing me from populating the correct data.</p>`
+  );
+});
+
 db.once('open', () => {
     app.listen(PORT, () => {
       console.log(`API server running on port ${PORT}!`);
